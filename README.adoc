@@ -7,7 +7,8 @@ OpenNMS configuration for Asterisk devices.
 .Download and install from GitHub
 [source, bash]
 ----
-cd $OPENNMS_HOME/etc/modules-available
+mkdir ${HOME}/opennms-config-workspace
+cd ${HOME}/opennms-config-workspace
 git clone https://github.com/opennms-config-modules/asterisk.git
 ----
 
